@@ -1,0 +1,32 @@
+= Awesome xref demo doc!
+
+This is some content.
+
+// POST-PROCESSOR EXAMPLES - will work *during this demo*
+xref:some/other/doc.adoc[pass:[<!-- 4705ed3d-c99b-4a8c-a5d0-d963bae4b34e -->]human readable label]
+
+<<some/other/doc.adoc,pass:[<!-- 4705ed3d-c99b-4a8c-a5d0-d963bae4b34e -->]triangle syntax label>>
+
+link:http://www.google.com[pass:[<!-- 4705ed3d-c99b-4a8c-a5d0-d963bae4b34e -->]Link to google, maybe?]
+
+
+
+// POST-PROCESSOR EXAMPLES - could work next week, maybe?
+xref:some/other/doc.adoc[pass:[<!-- repoName:/path/to/module -->]human readable label]
+
+<<some/other/doc.adoc,pass:[<!-- repoName:/path/to/module -->]triangle syntax label>>
+
+link:http://www.google.com[pass:[<!-- repoName:/path/to/module -->]Link to google, maybe?]
+
+
+
+// PRE-PROCESSOR EXAMPLES
+xref:some/other/doc.adoc[human readable label,pantheon-id=repoName:/path/to/module]
+
+link:http://www.google.com[go to google - maybe!,pantheon-id=repoName:/path/to/module]
+
+<<some/other/doc.adoc,There is no way for Pantheon to overwrite this...>>
+
+
+
+End of doc!

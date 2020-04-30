@@ -1,0 +1,4 @@
+include::{attsFile}[]
+
+{person} is a {role}
+

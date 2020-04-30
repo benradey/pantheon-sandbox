@@ -1,0 +1,16 @@
+= Assembly masquerading as a module
+
+This is intro text.
+
+include::chap1.adoc[]
+
+This is glue text.
+
+include::chap2.adoc[]
+
+More glue text.
+
+include::chap3.adoc[]
+
+And this is the end.
+

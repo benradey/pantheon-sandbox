@@ -1,0 +1,8 @@
+= Nested Include Doc
+
+Some content at top level.
+
+include::a/child.adoc[]
+
+More content at top level.
+

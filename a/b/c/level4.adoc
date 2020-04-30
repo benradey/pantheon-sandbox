@@ -1,0 +1,8 @@
+==== 4th level content
+
+Here's some 4th level stuff.
+
+include::d/level5.adoc[]
+
+More 4th level stuff.
+

@@ -1,0 +1,8 @@
+== Child level doc
+
+Some content at child level.
+
+include::b/grandchild.adoc[]
+
+More content at child level.
+

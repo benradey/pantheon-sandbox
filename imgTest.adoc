@@ -1,0 +1,11 @@
+= Image Symlink Test
+
+This one is brought in via its real path:
+
+image::images/Untitled.png[]
+
+This one is brought in via a symlink:
+
+image::noImages/imgsLink/Untitled.png[]
+
+The end.

@@ -1,0 +1,25 @@
+# Config file for Pantheon v2 uploader
+## server: Pantheon server URL
+## repository: a unique name, which is visible in the user facing URL
+
+## Note: Due to yaml syntax, any filepaths that start with a wildcard must be surrounded in quotes like so:
+# modules:
+#  - '*.adoc'
+
+server: http://localhost:8080
+repositories:
+  - name: pantheonSampleRepo
+    attributes: attributes-ben.adoc
+    modules:
+      - noVariableInclude.adoc
+      - 南京防疫现场.adoc
+      - copies/*.adoc
+      - xrefTest.adoc
+      - imgTest.adoc
+      - nestedInclude.adoc
+      - assembly.adoc
+      - variableInclude.adoc
+    resources:
+      - images/*
+      - a/*
+      - chap*.adoc
