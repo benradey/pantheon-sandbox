@@ -7,19 +7,25 @@
 #  - '*.adoc'
 
 server: http://localhost:8080
-repositories:
-  - name: pantheonSampleRepo
-    attributes: attributes-ben.adoc
-    modules:
-      - noVariableInclude.adoc
-      - 南京防疫现场.adoc
-      - copies/*.adoc
-      - xrefTest.adoc
-      - imgTest.adoc
-      - nestedInclude.adoc
-      - assembly.adoc
-      - variableInclude.adoc
-    resources:
-      - images/*
-      - a/*
-      - chap*.adoc
+repository: pantheonSampleRepo
+variants:
+   - name: ben-atts
+     path: attributes-ben.adoc
+     canonical: true
+   - name: carlos-atts
+     path: attributes-carlos.adoc
+modules:
+  - noVariableInclude.adoc
+  - 南京防疫现场.adoc
+  - copies/*.adoc
+  - xrefTest.adoc
+  - imgTest.adoc
+  - modules/submodules/submodules1/imgTest.adoc
+  - nestedInclude.adoc
+  - assembly.adoc
+  - variableInclude.adoc
+  - linkAsm/subdir/assembly.adoc
+resources:
+  - images/*
+  - a/*
+  - chap*.adoc
