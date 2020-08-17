@@ -1,0 +1,12 @@
+//
+// Product content attributes
+//
+:ProductName: CCS Tools Documentation
+:ProductShortName: CCS Tools Documentation
+:ProductRelease: 1
+:ProductVersion: 1.0
+//
+// Documentation publishing attributes used in the master-docinfo.xml file
+//
+:DocInfoProductName: CCS Tools Documentation
+:DocInfoProductNumber: 1.0

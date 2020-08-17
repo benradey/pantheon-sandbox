@@ -1,0 +1,8 @@
+ifdef::standalone-module[]
+include::attributes-v4.adoc[]
+endif::[]
+= Child level header
+
+Value of variable: {BenSuperVar}
+
+Oh snaaaaaap!

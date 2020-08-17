@@ -1,0 +1,11 @@
+:BenSuperVar: It's a beautiful day in paradise
+
+= Parent level heading
+
+Value of variable: {BenSuperVar}
+
+What whaaaat
+
+include::asm_child.adoc[]
+
+include::asm_child2.adoc[]

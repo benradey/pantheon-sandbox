@@ -1,0 +1,24 @@
+// Module included in the following assemblies:
+//
+// assembly_overview-of-networking-topics.adoc
+
+[id='Comparing-IP-to-non-IP-Networks_{context}']
+= Comparing IP to non-IP networks
+
+A network is a system of interconnected devices that can communicate sharing information and resources, such as files, printers, applications, and Internet connection. Each of these devices has a unique Internet Protocol (IP) address to send and receive messages between two or more devices using a set of rules called protocol.
+
+[[bh-Categories_of_Network_Communication]]
+[discrete]
+== Categories of network communication
+
+IP networks::
++
+Networks that communicate through Internet Protocol addresses. An IP network is implemented in the Internet and most internal networks. Ethernet, Cable Modems, DSL Modems, dial up modems, wireless networks, and VPN connections are typical examples.
+
+non-IP networks::
++
+Networks that are used to communicate through a lower layer rather than the transport layer. Note that these networks are rarely used. InfiniBand is a non-IP network.
+
+//[discrete]
+//== Additional Resources
+//* For more information about Infiniband and RDMA networks, see link:++https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html-single/networking_guide/#ch-Configure_InfiniBand_and_RDMA_Networks++[Configure Infiniband and RDMA Networks].

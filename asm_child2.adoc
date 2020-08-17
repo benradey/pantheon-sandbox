@@ -1,0 +1,5 @@
+= Other child level header
+
+Value of AWESOME variable: {BenSuperVar}
+
+Pack it up boys, we're done here.
