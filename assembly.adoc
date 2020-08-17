@@ -2,11 +2,11 @@
 
 This is intro text.
 
-include::chap1.adoc[]
+include::chap1.adoc[leveloffset=+1]
 
 This is glue text.
 
-include::chap2.adoc[]
+include::chap2.adoc[nonsensearg=banana,anotherarg=apple]
 
 More glue text.
 

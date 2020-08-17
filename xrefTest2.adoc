@@ -1,0 +1,17 @@
+= Awesome xref demo doc!
+
+This is some content.
+
+
+// PRE-PROCESSOR EXAMPLES
+This line has one xref. xref:a/child.adoc[human readable label]
+
+This line has one xref:a/b/grandchild.adoc[xref], followed by xref:a/b/c/level4.adoc[another].
+
+This xref doesn't go to a valid file: xref:this/goes/nowhere.adoc[Pantheon should leave it alone.]
+
+For when things get really fancy, here's <<a/child.adoc#,a triangle xref>>! OMG!
+
+For when things get TOO fancy, here's <<a/b/grandchild.adoc#,a triangle xref>> follow by <<a/b/c/level4.adoc#,A WHOLE NOTHER>> triangle xref!!!! Stop, my heart can only take so much excitement.
+
+End of doc!

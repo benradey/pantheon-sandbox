@@ -6,7 +6,7 @@
 # modules:
 #  - '*.adoc'
 
-server: http://localhost:8080
+server: http://localhost:8181
 repository: pantheonSampleRepo
 variants:
    - name: ben-atts
@@ -15,17 +15,23 @@ variants:
    - name: carlos-atts
      path: attributes-carlos.adoc
 modules:
-  - noVariableInclude.adoc
-  - 南京防疫现场.adoc
-  - copies/*.adoc
-  - xrefTest.adoc
-  - imgTest.adoc
-  - modules/submodules/submodules1/imgTest.adoc
-  - nestedInclude.adoc
-  - assembly.adoc
-  - variableInclude.adoc
-  - linkAsm/subdir/assembly.adoc
+  #   - noVariableInclude.adoc
+   - 南京防疫现场.adoc
+  #   - copies/*.adoc
+  #   - xrefTest.adoc
+  #   - imgTest.adoc
+  #   - modules/submodules/submodules1/imgTest.adoc
+  #   - nestedInclude.adoc
+  #   - variableInclude.adoc
+  #   - linkAsm/subdir/assembly.adoc
+   - ref_cost_model_terms.adoc
+   - chap*.adoc
+   - xrefTest2.adoc
+   - emptyCell.adoc
 resources:
-  - images/*
-  - a/*
-  - chap*.adoc
+  #   - images/*
+   - a/*
+  # - chap*.adoc
+  #   - modules/*/*/*.adoc
+assemblies:
+   - assembly.adoc
