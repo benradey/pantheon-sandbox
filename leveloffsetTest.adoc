@@ -1,0 +1,23 @@
+= Leveloffset test assembly
+
+This is intro text.
+
+include::leveloffsetInclude.adoc[]
+include::leveloffsetInclude.adoc[leveloffset=+2]
+:leveloffset: +1
+include::leveloffsetInclude.adoc[]
+include::leveloffsetInclude.adoc[leveloffset=+1]
+include::leveloffsetInclude.adoc[leveloffset=+2]
+:leveloffset: +2
+include::leveloffsetInclude.adoc[]
+include::leveloffsetInclude.adoc[leveloffset=+1]
+include::leveloffsetInclude.adoc[leveloffset=0]
+:leveloffset: 1
+include::leveloffsetInclude.adoc[]
+include::leveloffsetInclude.adoc[leveloffset=+1]
+include::leveloffsetInclude.adoc[leveloffset=3]
+
+include::leveloffsetInclude.adoc[leveloffset=banana]
+
+And this is the end.
+

@@ -28,6 +28,7 @@ modules:
    - chap*.adoc
    - xrefTest2.adoc
    - emptyCell.adoc
+   - leveloffsetInclude.adoc
 resources:
   #   - images/*
    - a/*
@@ -35,3 +36,4 @@ resources:
   #   - modules/*/*/*.adoc
 assemblies:
    - assembly.adoc
+   - leveloffsetTest.adoc
