@@ -1,0 +1,88 @@
+= Normal, not that cool asciidoc stuff
+
+SUP JOSEPH
+
+
+Pantheon attributes:
+
+showtitle: {showtitle}
+
+pantheonproduct: {pantheonproduct}
+
+pantheonversion: {pantheonversion}
+
+pantheonupdateddate: {pantheonupdateddate}
+
+pantheonpublisheddate: {pantheonpublisheddate}
+
+Bracket ID style:
+Go to <<tesla>> for cool stuff!
+
+Bracket title style:
+Go to <<SUPER COOL TESLA STUFF>> for the same cool stuff!
+
+Inline macro style:
+Learn how to xref:tesla[be awesome with Tesla]!
+
+Relative xref style - let's see if it needs to point at a file that exists:
+This link goes <<vfhdahjofgag.adoc#banana,nowhere>>!!!
+And neither does xref:bmnvbkjvnbk.adoc#orange[this one]!!!
+This link tries to <<../fijgvnfdls.adoc#,go up a level>>!!!
+
+This link has some params, do they persist? xref:lblklkjfg.adoc?redhat=true&ben=cool#[params test]
+So does this one: xref:lfhglfdhj.adoc?redhat=true&ben=cool#jumplink[test 2]
+
+What if we use links for an adoc file? link:http://redhat.com/somedoc.adoc[Let's see...]
+Some thing but relative: link:anotherdoc.adoc[hot chocolate]
+
+This xref has <<tesla,way,too,many,commas>>
+
+Can we put asciidoc <<tesla,*markup* _into_ link text?>>
+
+How far does <<tesla,[#customId1] [[customId2]] [.customRole] [role="explicitRole"] the rabbit hole go?>>
+How far does <<tesla,[#customId1] [.customRole] [role="explicitRole"] the rabbit hole go?>>
+What about [.fancyRole]<<tesla,this syntax>>?
+Maybe [[customId3]]<<tesla,this works>>?
+
+Can we name attributes in xref:lshjgfalskj.adoc#[xrefs,target=banana,rhatt=rhval]
+What about xref:lfdkhsaj.adoc#[rhatt=rhval,backwards]?
+
+Here are some real attributes: <<tesla,test,role="randtron",window="whateverzz">>
+Same thing for a link: link:http://www.google.com[Da Googz, role="randotron", window="zxcvzvc", apple="banana"]
+
+// tag::someTag[]
+<<tesla,This is surrounded by tags.>>
+// end::someTag[]
+
+pass:[<!-- hashtag comment? -->]<<tesla,Passthrough macro style 1>>
+
+<<tesla,pass:[<!-- hashtag comment 2? -->]Passthrough macro style 2>>
+
+<<tesla,pass:[<!-- 123e4567-e89b-12d3-a456-426655440000 -->]This should actually work????>> (That is now a lie, that is a random UUID that goes nowhere.)
+
+<<tesla,pass:[<!-- cbde8858-c2ab-40de-aeda-ef557aa6725c -->]This is a valid UUID that ought to get overwritten with an actual working link.>>
+
+link:http://www.google.com[pass:[<!-- cbde8858-c2ab-40de-aeda-ef557aa6725c -->]Same thing, but in link form!]
+
+link:http://access.redhat.com/documentation/en_US/openshift/installing.html[pass:[<!-- cbde8858-c2ab-40de-aeda-ef557aa6725c -->]access.redhat.com WITH a uuid!]
+
+link:http://access.redhat.com/documentation/en_US/openshift/installing.html[access.redhat.com withOUT a uuid!]
+
+// <<tesla,pantheonId:[abc1234]Whatever link text>>
+[.pantheonRoleTest]
+<<tesla,This is an xref with a role>>! :)
+
+<<tesla,[abc1234]Link Label>>
+
+pass:[This is code that is written with *'s ONLY! *** 4 ** gj****]
+
+This is a test of an
+//comment
+<<tesla,inline>>
+xref.
+
+
+[[tesla]]
+= SUPER COOL TESLA STUFF
+
+image:01_Main_Hero_Desktop.jpg[]

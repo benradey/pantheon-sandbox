@@ -1,0 +1,11 @@
+#!/bin/bash
+MAX=$1
+for ((i=1; i <= $MAX; i++)) ; do 
+	curl http://localhost:8080/content/products/productname$i -Fname=productName$i -Fsling:resourceType=pantheon/product -Fjcr:primaryType=pant:product -Flocale=en-US -Furl=productName$i -Fdescription=productDesc$i --compressed --user demo:demo
+	echo ''
+	for ((j=1; j <= $MAX; j++)) ; do 
+		curl http://localhost:8080/content/products/productname$i/versions/version$j -Fname=version$i-$j -Fsling:resourceType=pantheon/productVersion -Fjcr:primaryType=pant:productVersion --compressed --user demo:demo
+		echo ''
+	done
+done
+

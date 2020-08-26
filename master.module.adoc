@@ -1,0 +1,76 @@
+include::shared/attributes.module.adoc[]
+
+= Test AsciiDoc Book
+CCS Tools Team <cp-docs@redhat.com>
+
+[[support]]
+== Support
+
+[[support-ticket]]
+=== Logging a Support Request
+
+If you run into an issue or require help, the best way to get help is to open a support request by navigating to https://pantheon.cee.redhat.com/ and clicking the 'Open a Support Request' button, located on the right hand side. Be sure to include as much information as possible in the form, such as:
+
+* Error messages or logs
+* Sample content to reproduce the issue
+* Environment details (ie what OS or Browser you are using)
+
+[[support-permissions]]
+=== Requesting Permissions
+
+If you are missing permissions and believe that you should have them,  xref:support-ticket[open a support request] requesting the permissions you want added to your account. Make sure to include your Customer Portal username and tag your documentation product manager (DPM) or Manager so they can acknowledge the request.
+
+The current permissions available are:
+
+* Title Manager
+** Allows the user to add/update source titles.
+* Title Publisher
+** Allows the user to publish source titles.
+* Translation Title Manager
+** Allows the user to add/update translation titles.
+* Translation Title Publisher
+** Allows the user to publish translation titles.
+* User Manager
+** Allows the user to update other users permissions.
+* Packager
+** Allows the user to package titles for engineering.
+* Beta Tester
+** Allows the user to participate in Beta/Tech Preview features.
+
+[[support-developers]]
+=== Emergency Contacts
+
+In the event of an urgent issue, please contact someone listed below:
+
+.Drupal Team
+* Erik Newby
+* Andy Thornton
+* Alex McCabe
+
+.CCS Tools Team
+* Pavel Tisnovsky
+* Tomas Dabasinskas
+* Lee Newson
+
+[[documentation-formats]]
+== Documentation Formats
+
+For the purpose of publishing documentation to the Customer Portal using the Docs2Drupal toolchain, CCS tooling supports two formats: *AsciiDoc* and *DocBook*. For many years, DocBook was the only format CCS supported, but AsciiDoc https://mojo.redhat.com/message/975985#975985[has a host of advantages and few drawbacks]. Additionally, many upstream communities that CCS works with are adopting AsciiDoc because itis easier to jump in and learn than DocBook and therefore it lowers the barrier for documentation contributions (and it doesn't hurt that Github supports _README.adoc_ for project descriptions).
+
+For beginning new documentation projects, CCS recommends using AsciiDoc.
+
+[[embargoed-test]]
+== Embargoed Test
+
+This is just another chapter that should only show in the embargoed version of this guide. If you are seeing this normally, then the embargoed date is not working as expected.
+
+[[merge-request-demo]]
+== Merge Request Demo
+
+This section was added for merge request demo
+
+
+I'm now in Brno and I love it
+
+
+And here's another change
