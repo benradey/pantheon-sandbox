@@ -4,7 +4,9 @@ This is intro text.
 
 include::leveloffsetInclude.adoc[]
 include::leveloffsetInclude.adoc[leveloffset=+2]
-:leveloffset: +1
+include::leveloffsetInclude.adoc[]
+:bentestvar: ben test value
+:leveloffset: 1
 include::leveloffsetInclude.adoc[]
 include::leveloffsetInclude.adoc[leveloffset=+1]
 include::leveloffsetInclude.adoc[leveloffset=+2]
@@ -16,8 +18,10 @@ include::leveloffsetInclude.adoc[leveloffset=0]
 include::leveloffsetInclude.adoc[]
 include::leveloffsetInclude.adoc[leveloffset=+1]
 include::leveloffsetInclude.adoc[leveloffset=3]
+include::leveloffsetInclude.adoc[]
 
 include::leveloffsetInclude.adoc[leveloffset=banana]
+include::leveloffsetInclude.adoc[]
 
 And this is the end.
 
