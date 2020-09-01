@@ -1,0 +1,10 @@
+= Variable-include assembly
+
+Intro text.
+
+:path: a
+
+include::{path}/child.adoc[]
+
+Outro text.
+

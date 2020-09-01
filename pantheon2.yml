@@ -37,3 +37,4 @@ resources:
 assemblies:
    - assembly.adoc
    - leveloffsetTest.adoc
+   - variableIncludeAsm.adoc
