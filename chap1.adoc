@@ -4,7 +4,13 @@ This is chapter 1 text.
 
 xref:chap2.adoc[Here's an xref to chapter 2.]
 
+xref:chap2.adoc#[Same thing with a #]
+
 xref:chap2.adoc#anisha-target_banana[Anisha test]
+
+xref:#anisha-target_banana[Noopur test]
+
+xref:chap1.adoc#ben-target[Noopur FANCY test]
 
 xref:chap2.adoc#cool-stuff[Here's a deep xref to chapter 2.]
 
@@ -13,6 +19,12 @@ xref:ben-target[This xref keeps you in this document.]
 xref:anisha-target_banana[This xref only works in an assembly]
 
 xref:ref_cost_model_terms.adoc[Cost model - This takes you outside of the assembly.]
+
+xref:some/fake/path.adoc[This xref doesn't resolve]
+
+xref:some/fake/path.adoc#[Same thing with a #]
+
+This xref has no label: xref:chap2.adoc[]
 
 Triangle xrefs:
 
@@ -23,6 +35,12 @@ Triangle xrefs:
 <<ben-target,This xref keeps you in this document.>>
 
 <<ref_cost_model_terms.adoc#,Cost model - This takes you outside of the assembly.>>
+
+<<some/fake/path.adoc,This xref doesn't resolve>>
+
+<<some/fake/path.adoc#,Same thing with a #>>
+
+This xref has no label: <<chap2.adoc>>
 
 The beginnings - Roadster and private funding
 
