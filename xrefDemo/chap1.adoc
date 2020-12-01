@@ -1,24 +1,21 @@
-:context: banana
-[id="anisha-target_{context}"]
-=== Chapter 2
+== Chapter 1
 
-NEW TEXT FOR CHAP 2
+This is chapter 1 text.
 
-This is chapter 2 text. Chapter 2 has a subtitle.
+Path triangle:
+<<chap2.adoc#,Triangle xref to chapter 2>>
 
-xref:chap1.adoc[Here's an xref to chapter 1.]
+Both:
+xref:chap2.adoc#chap2id_demo[Path-and-id xref]
 
-xref:chap1.adoc#ben-target[Here's a deep xref to chapter 1.]
+Id:
+xref:chap2id_demo[Id-only xref to chapter 2] <- This can only work in an assembly context
 
-xref:cool-stuff[This xref keeps you in this document.]
+Id:
+xref:chap1id[Id-only xref to chapter 1]
 
-Triangle xrefs:
-
-<<chap1.adoc#,Here's an xref to chapter 1.>>
-
-<<chap1.adoc#ben-target,Here's a deep xref to chapter 1.>>
-
-<<cool-stuff,This xref keeps you in this document.>>
+Path:
+xref:standalone.adoc[This takes you to the standalone module from any context]
 
 The beginnings - Roadster and private funding
 
@@ -26,8 +23,8 @@ Founded as Tesla Motors, Tesla was incorporated on July 1, 2003 by Martin Eberha
 
 Ian Wright was the third employee, joining a few months later.[1] The three went looking for venture capital (VC) funding in January 2004[1] and connected with Elon Musk, who contributed US$6.5 million of the initial (Series A) US$7.5 million[6] round of investment in February 2004 and became chairman of the board of directors.[1] Musk then appointed Eberhard as the CEO.[7] J.B. Straubel joined in May 2004[1] as the fifth employee.[8] A lawsuit settlement agreed to by Eberhard and Tesla in September 2009 allows all five (Eberhard, Tarpenning, Wright, Musk and Straubel) to call themselves co-founders.[9]
 
-[[cool-stuff]]
-== This is an xref target inside chapter 2.
+[[chap1id]]
+== This is a potential xref target inside chapter 1
 
 Musk took an active role within the company and oversaw Roadster product design at a detailed level, but was not deeply involved in day-to-day business operations.[10] Eberhard acknowledged that Musk was the person who insisted from the beginning on a carbon-fiber-reinforced polymer body and that Musk led design of components ranging from the power electronics module to the headlamps and other styling.[11] Musk received the Global Green 2006 product design award for his design of the Tesla Roadster, presented by Mikhail Gorbachev,[12] and he also received the 2007 Index Design award for his design of the Tesla Roadster.[13]
 The insignia of Tesla Motors as seen on a Tesla Roadster Sport

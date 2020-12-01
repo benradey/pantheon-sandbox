@@ -1,0 +1,12 @@
+= Abstract module
+
+Body text.
+
+[.system:abstract]
+This is NOT the abstract.
+
+[._abstract]
+This IS the abstract.
+
+The end.
+

@@ -1,6 +1,8 @@
+:pantheon-module-type: CONCEPT
+
 == Chapter 1
 
-This is chapter 1 text.
+This is chapter 1 text. Here's more. Bananas.
 
 xref:chap2.adoc[Here's an xref to chapter 2.]
 
@@ -41,6 +43,16 @@ Triangle xrefs:
 <<some/fake/path.adoc#,Same thing with a #>>
 
 This xref has no label: <<chap2.adoc>>
+
+This xref also has no label: <<ben-target>>
+
+Experiments:
+
+xref:apple@banana:nonsense:chap2.adoc[antora syntax]
+
+xref:chap2.adoc[lots, of, commas, and,now,no,spaces,var1=var2,apple=banana]
+
+xref:chap2.adoc["lots, of, commas, and,now,no,spaces",var1=var2,apple=banana]
 
 The beginnings - Roadster and private funding
 

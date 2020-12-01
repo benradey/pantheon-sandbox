@@ -1,0 +1,10 @@
+:apple: Red Fruit
+:_module-type: CONCEPT
+:banana: Yellow Fruit
+
+= Variable Underscore Test
+
+The variables are {apple} {_module-type} {banana}
+
+The end.
+

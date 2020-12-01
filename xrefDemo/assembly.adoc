@@ -1,0 +1,23 @@
+= Assembly for Xref Demo
+
+This is intro text.
+
+Also, here are some xrefs at the assembly level:
+
+Path:
+xref:chap2.adoc#[Assembly-level filepath xref to chapter 2]
+
+Id:
+xref:#chap2id_demo[Assembly-level id xref to chapter 2 body]
+
+Both:
+xref:chap2.adoc#chap2id_demo[Assembly-level path-and-id xref to chapter 2 body]
+
+include::chap1.adoc[]
+
+This is glue text.
+
+include::chap2.adoc[]
+
+And this is the end.
+

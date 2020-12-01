@@ -1,0 +1,3 @@
+= Doc with an id baked into the title[[some-inline-id]]
+
+Here's some content.

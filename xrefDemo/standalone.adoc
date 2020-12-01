@@ -1,0 +1,3 @@
+= This module stands alone
+
+This module doesn't show up in any assembly.
