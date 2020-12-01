@@ -7,36 +7,8 @@
 #  - '*.adoc'
 
 server: http://localhost:8181
-repository: pantheonSampleRepo
-variants:
-   - name: ben-atts
-     path: attributes-ben.adoc
-     canonical: true
-   - name: carlos-atts
-     path: attributes-carlos.adoc
+repository: benradeyTestRepo
 modules:
-  #   - noVariableInclude.adoc
-   - 南京防疫现场.adoc
-  #   - copies/*.adoc
-  #   - xrefTest.adoc
-  #   - imgTest.adoc
-  #   - modules/submodules/submodules1/imgTest.adoc
-  #   - nestedInclude.adoc
-  #   - variableInclude.adoc
-  #   - linkAsm/subdir/assembly.adoc
-   - ref_cost_model_terms.adoc
-   - chap*.adoc
-   - xrefTest2.adoc
-   - emptyCell.adoc
-   - leveloffsetInclude.adoc
-   - experimentalOn.adoc
-   - experimentalOff.adoc
+  - ignore.adoc
 resources:
-  #   - images/*
-   - a/*
-  # - chap*.adoc
-  #   - modules/*/*/*.adoc
 assemblies:
-   - assembly.adoc
-   - leveloffsetTest.adoc
-   - variableIncludeAsm.adoc
