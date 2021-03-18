@@ -1,0 +1,6 @@
+:_module-type: CONCEPT
+
+= This should be a Concept module
+
+Dummy text.
+

@@ -1,0 +1,4 @@
+= Simple Document 2
+
+This is a simple document.
+

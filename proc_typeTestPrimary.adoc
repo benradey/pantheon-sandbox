@@ -1,0 +1,6 @@
+:_module-type: REFERENCE
+
+= This should be a Reference module
+
+Dummy text.
+

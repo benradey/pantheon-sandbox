@@ -1,8 +1,9 @@
-:pantheon-module-type: CONCEPT
-
-== Chapter 1
+[id="bananaChap1"]
+= Chapter 1
 
 This is chapter 1 text. Here's more. Bananas.
+
+xref:bananaChap2[Id-based to chapter 2.]
 
 xref:chap2.adoc[Here's an xref to chapter 2.]
 

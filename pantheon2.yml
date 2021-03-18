@@ -16,7 +16,7 @@ variants:
      path: attributes-carlos.adoc
 modules:
   #   - noVariableInclude.adoc
-   - 南京防疫现场.adoc
+  #   - 南京防疫现场.adoc
   #   - copies/*.adoc
   #   - xrefTest.adoc
   #   - imgTest.adoc
@@ -24,19 +24,23 @@ modules:
   #   - nestedInclude.adoc
   #   - variableInclude.adoc
   #   - linkAsm/subdir/assembly.adoc
-   - ref_cost_model_terms.adoc
+  #   - ref_cost_model_terms.adoc
    - chap*.adoc
-   - xrefTest2.adoc
-   - emptyCell.adoc
-   - leveloffsetInclude.adoc
-   - experimentalOn.adoc
-   - experimentalOff.adoc
+  #   - xrefTest2.adoc
+  #   - emptyCell.adoc
+  #   - leveloffsetInclude.adoc
+  #   - experimentalOn.adoc
+  #   - experimentalOff.adoc
+  #   - simple*.adoc
+  #   - ppp_*.adoc
+  #   - proc_*.adoc
+   - blocktest.adoc
 resources:
   #   - images/*
-   - a/*
-  # - chap*.adoc
+  #   - a/*
+  #   - chap*.adoc
   #   - modules/*/*/*.adoc
 assemblies:
    - assembly.adoc
-   - leveloffsetTest.adoc
-   - variableIncludeAsm.adoc
+  #   - leveloffsetTest.adoc
+  #   - variableIncludeAsm.adoc

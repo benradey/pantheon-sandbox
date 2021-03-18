@@ -1,0 +1,8 @@
+= Block test doc
+
+:var: substitution text
+
+The [filename]`express.conf` configuration file is located in the [filename]`/usr/share/` directory. Also, here's some {var} that's really cool.
+
+The end.
+

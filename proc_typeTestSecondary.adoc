@@ -1,0 +1,4 @@
+= This should be a Procedure module
+
+Dummy text.
+
